@@ -2,23 +2,27 @@ from random import choice, randint
 
 
 class student():
-    def __init__(self, name, surname, faculty, numberCheckbook):
-        self.__name = name
-        self.__surname = surname
-        self.__faculty = faculty
-        self.__number_checkbook = numberCheckbook
+    def __init__(self, name, surname, faculty, number_checkbook):
+        self._name = name
+        self._surname = surname
+        self._faculty = faculty
+        self._number_checkbook = number_checkbook
 
+    @property
     def name(self):
-        return self.__name
+        return self._name
 
+    @property
     def surname(self):
-        return self.__surname
+        return self._surname
 
+    @property
     def faculty(self):
-        return self.__faculty
+        return self._faculty
 
+    @property
     def number_checkbook(self):
-        return self.__number_checkbook
+        return self._number_checkbook
 
     def print_student(self):
         print(
@@ -26,10 +30,10 @@ class student():
             self.faculty() + ", номер зачётной книжки", str(self.number_checkbook()), sep=" ")
 
     def __eq__(self, other):
-        if (self.name() == other.name() or other.name() == "") and (
-                self.surname() == other.surname() or other.surname() == "") and (
-                self.faculty() == other.faculty() or other.faculty() == "") and (
-                self.number_checkbook() == other.number_checkbook() or other.number_checkbook() == ""):
+        if (self._name == other.name or other.name == "") and (
+                self._surname == other.surname or other.surname == "") and (
+                self._faculty == other.faculty or other.faculty == "") and (
+                self._number_checkbook == other.number_checkbook or other.number_checkbook == ""):
             return True
         else:
             return False
@@ -65,9 +69,9 @@ massive = []
 names_gen = ["Александр", "Михаил", "Дмитрий", "Иван", "Роман", "Даниил", "Кирилл", "Максим", "Егор", "Матвей"]
 surnames_gen = ["Смирнов", "Иванов", "Кузнецов", "Соколов", "Попов", "Лебедев", "Козлов", "Новиков", "Морозов", "Соловьев"]
 faculties_gen = ["ФВТ", "ФИТЭ", "ФПТЭТ"]
-maxNumberCheckbook = 1000
+max_number_checkbook = 1000
 for _ in range(100):
-    massive.append(student(choice(names_gen), choice(surnames_gen), choice(faculties_gen), str(randint(0, maxNumberCheckbook))))
+    massive.append(student(choice(names_gen), choice(surnames_gen), choice(faculties_gen), str(randint(0, max_number_checkbook))))
 search(massive)
 print("\n" * 5)
 for i in range(len(massive)):

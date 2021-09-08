@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25dfe31a-9247-49ab-ac5c-d3273b1f52f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f27957d66ff71203d5753b281aa7080b2aa2a92" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f27957d66ff71203d5753b281aa7080b2aa2a92" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number4.py" beforeDir="false" afterPath="$PROJECT_DIR$/number4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/number5.py" beforeDir="false" afterPath="$PROJECT_DIR$/number5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Python.number5">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -147,7 +149,11 @@
       <option name="presentableId" value="Default" />
       <updated>1630771185193</updated>
       <workItem from="1630771195282" duration="11325000" />
-      <workItem from="1630873576640" duration="1289000" />
+      <workItem from="1630873576640" duration="1996000" />
+      <workItem from="1630940341686" duration="55000" />
+      <workItem from="1630942242901" duration="2538000" />
+      <workItem from="1631035456455" duration="1901000" />
+      <workItem from="1631100215848" duration="1747000" />
     </task>
     <servers />
   </component>
@@ -171,22 +177,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1630875040500" />
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1630874845324">
+    <state width="1877" height="209" key="GridCell.Tab.0.bottom" timestamp="1630875589237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1630874845324" />
-    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1630874845324">
+    <state width="1877" height="209" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1630875589237" />
+    <state width="1877" height="209" key="GridCell.Tab.0.center" timestamp="1630875589237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1630874845324" />
-    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1630874845324">
+    <state width="1877" height="209" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1630875589237" />
+    <state width="1877" height="209" key="GridCell.Tab.0.left" timestamp="1630875589237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1630874845324" />
-    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1630874845324">
+    <state width="1877" height="209" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1630875589237" />
+    <state width="1877" height="209" key="GridCell.Tab.0.right" timestamp="1630875589237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630874845324" />
+    <state width="1877" height="209" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630875589237" />
     <state width="1877" height="316" key="GridCell.Tab.1.bottom" timestamp="1630783826216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -203,10 +209,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="316" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630783826216" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1630873576649">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1631100239447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1630873576649" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631100239447" />
     <state x="701" y="163" key="refactoring.ChangeSignatureDialog" timestamp="1630873925044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
