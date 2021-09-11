@@ -26,8 +26,8 @@ class student():
 
     def print_student(self):
         print(
-            "Cтудент", self.name(), self.surname(), "обучается на факультете",
-            self.faculty() + ", номер зачётной книжки", str(self.number_checkbook()), sep=" ")
+            "Cтудент", self._name, self._surname, "обучается на факультете",
+            self._faculty + ", номер зачётной книжки", str(self._number_checkbook), sep=" ")
 
     def __eq__(self, other):
         if (self._name == other.name or other.name == "") and (
@@ -70,7 +70,7 @@ names_gen = ["Александр", "Михаил", "Дмитрий", "Иван",
 surnames_gen = ["Смирнов", "Иванов", "Кузнецов", "Соколов", "Попов", "Лебедев", "Козлов", "Новиков", "Морозов", "Соловьев"]
 faculties_gen = ["ФВТ", "ФИТЭ", "ФПТЭТ"]
 max_number_checkbook = 1000
-for _ in range(100):
+for _ in range(10000):
     massive.append(student(choice(names_gen), choice(surnames_gen), choice(faculties_gen), str(randint(0, max_number_checkbook))))
 search(massive)
 print("\n" * 5)

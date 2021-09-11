@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25dfe31a-9247-49ab-ac5c-d3273b1f52f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lab1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/lab1.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/number1.py" beforeDir="false" afterPath="$PROJECT_DIR$/number1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/number2.py" beforeDir="false" afterPath="$PROJECT_DIR$/number2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number5.py" beforeDir="false" afterPath="$PROJECT_DIR$/number5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Python.number5">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -71,6 +70,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/number1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="number2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/number2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,11 +149,13 @@
       <item itemvalue="Python.number1" />
       <item itemvalue="Python.number4" />
       <item itemvalue="Python.number5" />
+      <item itemvalue="Python.number2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.number5" />
         <item itemvalue="Python.number4" />
+        <item itemvalue="Python.number2" />
         <item itemvalue="Python.number1" />
       </list>
     </recent_temporary>
@@ -159,7 +182,8 @@
       <workItem from="1631168846429" duration="59000" />
       <workItem from="1631202546221" duration="502000" />
       <workItem from="1631204334807" duration="6000" />
-      <workItem from="1631206121005" duration="132000" />
+      <workItem from="1631206121005" duration="220000" />
+      <workItem from="1631368937274" duration="312000" />
     </task>
     <servers />
   </component>
@@ -187,22 +211,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1631206278488" />
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom" timestamp="1631131822403">
+    <state width="1877" height="570" key="GridCell.Tab.0.bottom" timestamp="1631369251392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631131822403" />
-    <state width="1877" height="208" key="GridCell.Tab.0.center" timestamp="1631131822403">
+    <state width="1877" height="570" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631369251392" />
+    <state width="1877" height="570" key="GridCell.Tab.0.center" timestamp="1631369251392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631131822403" />
-    <state width="1877" height="208" key="GridCell.Tab.0.left" timestamp="1631131822403">
+    <state width="1877" height="570" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631369251392" />
+    <state width="1877" height="570" key="GridCell.Tab.0.left" timestamp="1631369251392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631131822403" />
-    <state width="1877" height="208" key="GridCell.Tab.0.right" timestamp="1631131822403">
+    <state width="1877" height="570" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631369251392" />
+    <state width="1877" height="570" key="GridCell.Tab.0.right" timestamp="1631369251392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631131822403" />
+    <state width="1877" height="570" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631369251392" />
     <state width="1877" height="316" key="GridCell.Tab.1.bottom" timestamp="1630783826216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -229,9 +253,10 @@
     <state x="701" y="163" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1630873925044" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lab1$number5.coverage" NAME="number5 Coverage Results" MODIFIED="1631130341072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lab1$number1.coverage" NAME="number1 Coverage Results" MODIFIED="1630776220645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lab1$number4.coverage" NAME="number4 Coverage Results" MODIFIED="1630777012862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lab1$number5.coverage" NAME="number5 Coverage Results" MODIFIED="1631369205626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lab1$number1.coverage" NAME="number1 Coverage Results" MODIFIED="1631368959591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lab1$number4.coverage" NAME="number4 Coverage Results" MODIFIED="1631369038948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lab1$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1630771242865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/lab1$number2.coverage" NAME="number2 Coverage Results" MODIFIED="1631368992995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
